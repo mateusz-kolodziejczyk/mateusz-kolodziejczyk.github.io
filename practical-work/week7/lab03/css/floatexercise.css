@@ -1,0 +1,18 @@
+body {
+  background-color:antiquewhite;
+  color:navy;
+}
+
+p{
+  float: left;
+  width: 25%;
+  margin: 1% 3%;
+}
+
+.diff {
+  clear: both;
+  width: auto;
+  margin: 0 auto;
+}
+
+

@@ -1,0 +1,38 @@
+ul li a{
+    color: white;
+}
+
+ul li a:hover{
+    color: lightblue;
+}
+body{
+    font-family: Arial, Heletica, sans-serif;
+    background-color: #585445;
+    color: white;
+}
+h1{
+    font-size: 2em;
+}
+
+h1, h2{
+    color: #a0c3f8;
+    font-weight: bold;
+
+}
+
+img{
+    max-height: 300px;
+    width: auto;
+}
+
+ol li a{
+    color: darkred;
+}
+
+ol li a:hover{
+    color: pink;
+}
+
+span{
+    color: yellow;
+}

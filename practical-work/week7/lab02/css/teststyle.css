@@ -1,0 +1,50 @@
+html, body {
+ width:100%;
+ height:100%;
+ padding:0;
+ margin:0;
+}
+
+#main {
+position:relative;
+ border:solid black;
+ width:80%;
+ margin:2% auto;
+ height:500px;
+}
+
+#positiona{
+  width: 15%;
+  padding:.5em;
+  background-color: #99CC99;
+  border: solid 1px #000;
+  position: absolute;
+}
+#positionb{
+  width: 15%;
+  padding:.5em;
+  background-color: #99CC99;
+  border: solid 1px #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#positiond{
+  width: 15%;
+  padding:.5em;
+  background-color: #99CC99;
+  border: solid 1px #000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#positionc{
+  width: 15%;
+  padding:.5em;
+  background-color: #99CC99;
+  border: solid 1px #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
