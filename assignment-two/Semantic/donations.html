@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Donations</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="ui container grid">
+        <header class="ui sixteen wide teal center aligned column">
+            <h1 class="ui inverted white header">MK Charity Shop New Ross</h1>
+        </header>
+        <div class="ui inverted teal four item menu">
+            <a href="index.html" class="item">Home Page</a>
+            <a href="our-team.html" class="item">Our Team</a>
+            <a href="news.html" class="item">News</a>
+            <a href="donations.html" class="active item">Donations</a>
+
+        </div>
+        <main class="ten wide column">
+            <div class="ui raised segment">
+                <h2 class="ui header">Why you should donate</h2>
+                <p>
+                    As we are a non-profit organisation we depend on you for our continuing existence. If you would be
+                    so inclined you can choose to donate here.
+                </p>
+                <h2 class="ui header">Monetary Donations</h2>
+                <p>If you wish to donate any money, you can donate here online through this form, or you can drop off
+                    the money at our shop. If you wish to donate anonymously put in anonymous as your first name or
+                    drop it off at the donation box in front of the shop</p>
+                <div class="ui divider"></div>
+                <form class="ui form">
+                    <div class="three fields">
+                        <div class="field">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="First Name" pattern="[A-Z][a-z]+" title="Single name starting with a capital letter"
+                                autofocus required>
+
+                        </div>
+                        <div class="field">
+                            <label for="middlename">Middle Name (Optional)</label>
+                            <input type="text" name="middlename" id="middlename" placeholder="Middle Name" pattern="[A-Z][a-z]+" title="Single name starting with a capital letter">
+                        </div>
+                        <div class="field">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Last Name" pattern="[A-Z][a-z]+" title="Single name starting with a capital letter"
+                                required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email Address</label>
+                        <input type="text" name="email" id="email" placeholder="email@website.com" pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)@[a-z0-9-]+(.[a-z0-9-]+)(.[a-z]{2,4})$"
+                            title="Valid email address e.g. name@website.com" required>
+                    </div>
+                    <div class="two fields">
+                        <div class="twelve wide field">
+                            <label for="cardnumber">Card Number</label>
+                            <input type="text" name="cardnumber" id="cardnumber" placeholder="Card Number" title="Valid card number without spaces"
+                                pattern="[0-9]+">
+                        </div>
+                        <div class="field">
+                            <label for="paymenttype">Payment type:</label>
+                            <select name="paymenttype" id="paymenttype" class="ui dropdown field">
+                                <option value="debit">Debit Card</option>
+                                <option value="credit">Credit Card</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reasons-donating">Reasons for donating: (Optional)</label>
+                        <textarea name="reasons-donating" id="reasons-donating" cols="20" rows="6"></textarea>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <label for="newsletter">Do you wish to receive our newsletter?</label>
+                            <input name="newsletter" id="newsletter" type="checkbox" tabindex="0" class="hidden">
+                        </div>
+                    </div>
+                    <button class="ui teal button" type="submit">Submit</button>
+                    <button class="ui button" type="reset">Reset</button>
+                </form>
+                <div class="ui divider"></div>
+                <h2>
+                    Non-Monetary Donations
+                </h2>
+                <p>
+                    Donate all non-monetary donations in person at our shop at the address provided down below. If you
+                    wish
+                    for your donation to remain anonymous drop it in the bag in front of the shop. Here is a table to
+                    give
+                    you an example of what kind of items we accept and don't accept:
+                </p>
+                <table class="ui celled table">
+                    <thead>
+                        <tr>
+                            <th>Accepted</th>
+                            <th>Not Accepted</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Accepted">Clothes of all kinds</td>
+                            <td data-label="Not Accepted">Food</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Accepted">Blankets and Duvets</td>
+                            <td data-label="Not Accepted">Electrical Toys</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Accepted">Regular toys and plushies</td>
+                            <td data-label="Not Accepted">Electric appliances</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Accepted">Books</td>
+                            <td data-label="Not Accepted">Personal Care Products(Deodorants etc)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <div class="five wide right floated teal column">
+            <h3 class="ui huge center aligned inverted white header">News</h3>
+            <a href="news.html" class="ui big inverted white header">New Sponsorship</a>
+            <p>We got a sponsorship with a local soccer team.</p>
+            <a href="news.html" class="ui big inverted white header">New Aisle Opened</a>
+            <p>
+                New aisle opened due to an influx of donations.
+            </p>
+            <a href="news.html" class="ui big inverted white header">Online Donations Open</a>
+            <p>
+                Online donations facily now open.
+            </p>
+            <a href="news.html" class="ui big inverted white header">New Website Launched</a>
+            <p>
+                Redesigned website now online.
+            </p>
+        </div>
+
+    </div>
+    <footer class="ui centered container grid">
+        <div class="sixteen wide teal column">
+            <div class="ui grid">
+                <div class="ui five wide list column">
+                    <div class="item">Contact Us:
+                        <div class="list">
+                            <a href="twitter.com" class="item">twitter</a>
+                            <a href="facebook.com" class="item">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="five wide right floated column">
+
+                    This is a student website for a fictional community organisation. The donation page does not do
+                    anything
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script >$('select.dropdown')
+            .dropdown()
+            ;</script>
+    <script >$('.ui.checkbox')
+            .checkbox()
+            ;</script>
+</body>
+
+
+
+</html>
