@@ -1,7 +1,7 @@
 ---
 layout: single
 title: portfolio
-permalink: /portfolio
+permalink: /portfolio/
 ---
 
 Portfolio yolo
